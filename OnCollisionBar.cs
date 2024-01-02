@@ -13,6 +13,7 @@ public class ObjectMap : MonoBehaviour
           if(collision.CompareTag("Player"))
           {
           name.class_function();
+          Destroy(gameObject);
           }
 
 
